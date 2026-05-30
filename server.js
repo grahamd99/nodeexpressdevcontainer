@@ -3,8 +3,6 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-const unused = 123;
-
 app.get("/", (req, res) => {
   res.send("Hello from Express running inside a dev container!");
 });
